@@ -1,6 +1,7 @@
 package com.ecommerce.model;
 /*
- * Task 67 Product Bloklog item 67: Design the Restful web service to Update the payment details for purchasing order from user.
+ * Task 67 Product Bloklog item 67: Design the Restful web service to Update the
+ payment details for purchasing order from user.
  * By Snehal Jagtap.
  */
 
