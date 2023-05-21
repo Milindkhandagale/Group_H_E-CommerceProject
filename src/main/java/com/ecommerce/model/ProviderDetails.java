@@ -4,8 +4,6 @@ package com.ecommerce.model;
  * By Snehal Jagtap
  */
 
-
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
