@@ -19,7 +19,7 @@ public class EmployeeInsertServiceImpl implements EmployeeInsertService {
 	@Override
 	public Employee saveEmployee(Employee employee) {
 		Employee emp = employeeRepository.save(employee);
-		return null;
+		return emp;
 	}
 
 }

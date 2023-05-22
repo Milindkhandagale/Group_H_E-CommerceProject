@@ -1,5 +1,5 @@
 package com.ecommerce.model;
-/*Product Backlog Item 72: Design Restful API to get user address from database
+/*Product Backlog Item 71: Design Restful API to get user address from database
  * by Snehal Jagtap
  */
 
