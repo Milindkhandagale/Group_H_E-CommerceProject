@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ecommerce.service.EmployeeDeleteService;
+import com.ecommerce.service.OrderDetailsDeleteService;
 
 @RestController
-public class EmployeeDeleteController {
+public class OrderDetailsDeleteController {
 	// inject the service
 	@Autowired
-	private EmployeeDeleteService employeeService;
+	private OrderDetailsDeleteService orderDetailsDeleteService;
 
 	// Design Restful web services to delete the data based on id
 	@DeleteMapping("/delete/{id}")
 	public void deleteEmployeeById(@PathVariable("id") Integer id) {
 		// calling the method
-		employeeService.deleteById(id);// path variable name pass here
+		orderDetailsDeleteService.deleteById(id);// path variable name pass here
 	}
 
 }

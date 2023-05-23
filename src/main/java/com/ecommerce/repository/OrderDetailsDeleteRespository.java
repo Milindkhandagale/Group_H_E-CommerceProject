@@ -9,9 +9,9 @@ import java.io.Serializable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ecommerce.model.Employee;
+import com.ecommerce.model.OrderDetails;
 
 @Repository
-public interface EmployeeDeleteRespository extends CrudRepository<Employee, Serializable> {
+public interface OrderDetailsDeleteRespository extends CrudRepository<OrderDetails, Serializable> {
 
 }

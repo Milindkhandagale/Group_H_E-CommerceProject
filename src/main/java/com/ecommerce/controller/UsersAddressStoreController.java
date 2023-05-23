@@ -1,4 +1,9 @@
 package com.ecommerce.controller;
+/*
+ * Product Backlog Item 109: Design Restful web services in which user should able to 
+ * store many address belongs to one user only
+ * Author Snehal Jagtap
+ */
 
 import java.util.List;
 
@@ -9,17 +14,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ecommerce.model.Address;
 import com.ecommerce.model.Users;
-import com.ecommerce.service.AddressService;
-import com.ecommerce.service.UsersService;
+import com.ecommerce.service.AddressStoreService;
+import com.ecommerce.service.UsersStoreService;
 
 @RestController
-public class UsersAddressController {
+public class UsersAddressStoreController {
 	// inject Users service and AddressService
 	@Autowired
-	private UsersService usersService;
+	private UsersStoreService usersService;
 
 	@Autowired
-	private AddressService addressService;
+	private AddressStoreService addressService;
 
 	// Design the Restful web services to store multiple users with its Address
 	@PostMapping("/storeUsersAddress")

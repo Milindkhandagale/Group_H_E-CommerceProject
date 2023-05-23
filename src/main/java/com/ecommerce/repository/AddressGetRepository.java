@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.ecommerce.model.Address;
 @Repository
-public interface AddressRepository extends CrudRepository<Address,Serializable> {
+public interface AddressGetRepository extends CrudRepository<Address,Serializable> {
+	public Address findById(Integer Id);
 
 }

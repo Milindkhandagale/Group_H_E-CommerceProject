@@ -1,4 +1,9 @@
 package com.ecommerce.model;
+/*
+ * Product Backlog Item 109: Design Restful web services in which user should able to 
+ * store many address belongs to one user only
+ * Author Snehal Jagtap
+ */
 
 import java.util.List;
 

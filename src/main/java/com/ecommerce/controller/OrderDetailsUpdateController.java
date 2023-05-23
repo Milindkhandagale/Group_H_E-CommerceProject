@@ -10,21 +10,21 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ecommerce.model.Employee;
-import com.ecommerce.service.EmployeeUpdateService;
+import com.ecommerce.model.OrderDetails;
+import com.ecommerce.service.OrderDetailsUpdateService;
 
 @RestController
-public class EmployeeUpdateController {
+public class OrderDetailsUpdateController {
 	// Inject the service here
 	@Autowired
-	private EmployeeUpdateService employeeService;
+	private OrderDetailsUpdateService orderDetailsUpdateService ;
 
 	// Design the Restful web service to save employee data into database
 	@PutMapping("/update")
-	private Employee update(@RequestBody Employee employee) {
+	private OrderDetails update(@RequestBody OrderDetails orderDetails) {
 
-		Employee emp = employeeService.updateEmployee(employee);
-		return emp;
+		OrderDetails orderDetails2 = orderDetailsUpdateService.updateOrderDetails(orderDetails);
+		return orderDetails2;
 
 	}
 

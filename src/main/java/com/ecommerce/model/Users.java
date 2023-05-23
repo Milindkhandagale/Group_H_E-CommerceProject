@@ -1,4 +1,10 @@
 package com.ecommerce.model;
+/*
+ * Product Backlog Item 109: Design Restful web services in which user should able to 
+ * store many address belongs to one user only
+ * Author Snehal Jagtap
+ */
+
 //many users has one company address
 
 import java.sql.Date;
@@ -28,7 +34,7 @@ public class Users {
 	@Column(name = "address_id")
 	private int addressId;
 	// Many Users has one address
-	@JoinColumn(name = "address_id",insertable = false,updatable =false )
+	@JoinColumn(name = "address_id", insertable = false, updatable = false)
 	@ManyToOne
 	private Address address;
 

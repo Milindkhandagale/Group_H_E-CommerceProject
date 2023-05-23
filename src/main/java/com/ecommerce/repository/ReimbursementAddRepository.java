@@ -5,8 +5,8 @@ import java.io.Serializable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ecommerce.model.Users;
+import com.ecommerce.model.Reimbursement;
 @Repository
-public interface UsersRepository extends CrudRepository<Users,Serializable> {
+public interface ReimbursementAddRepository extends CrudRepository<Reimbursement,Serializable> {
 
 }

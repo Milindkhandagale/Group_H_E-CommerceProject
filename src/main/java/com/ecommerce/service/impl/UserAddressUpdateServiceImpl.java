@@ -6,7 +6,7 @@ package com.ecommerce.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ecommerce.model.Employee;
+import com.ecommerce.model.OrderDetails;
 import com.ecommerce.model.UserAddress;
 import com.ecommerce.repository.UserAddressUpdateRepository;
 import com.ecommerce.service.UserAddressUpdateService;
