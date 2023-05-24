@@ -1,8 +1,8 @@
 package com.ecommerce.model;
 
 /* 
- * Task 82 Design the Restful web service to delete the order details into database 
- *  By Milind Khandagale
+ * Task 83 Design the Restful web service to delete the order details into database 
+ *  By Snehal Jagtap
  */
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
