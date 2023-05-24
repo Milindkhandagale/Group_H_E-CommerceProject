@@ -1,6 +1,6 @@
 package com.ecommerce.model;
 /*
- * Product Backlog Item 95: Design Restful web services to add
+ * Product Backlog Item 97: Design Restful web services to add
  *  current converter details
  *  Author Snehal Jagtap
  */
@@ -13,7 +13,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
-@Table(name="CurrencyConversion")
+@Table(name="currencyConversion")
 public class CurrencyConversion {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
