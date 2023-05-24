@@ -1,4 +1,9 @@
 package com.ecommerce.model;
+/*
+ * Product Backlog Item 87: Design the Restful web services to add the 
+ * reimbursement
+ * Author :Snehal Jagtap
+ */
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
