@@ -4,11 +4,11 @@ package com.ecommerce.service;
  * By Pragati Dabhade
  */
 
-import com.ecommerce.model.Employee;
+import com.ecommerce.model.OrderDetails;
 
 // design service or Design interface
-public interface EmployeeInsertService {
+public interface OrderDetailsInsertService {
 
-	public Employee saveEmployee(Employee employee);
+	public OrderDetails saveOrderDetails(OrderDetails orderDetails);
 
 }

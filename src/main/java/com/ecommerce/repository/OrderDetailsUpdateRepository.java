@@ -7,9 +7,9 @@ package com.ecommerce.repository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ecommerce.model.Employee;
+import com.ecommerce.model.OrderDetails;
 
 @Repository
-public interface EmployeeUpdateRepository extends CrudRepository<Employee, Integer> {
+public interface OrderDetailsUpdateRepository extends CrudRepository<OrderDetails, Integer> {
 
 }

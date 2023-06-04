@@ -4,8 +4,8 @@ package com.ecommerce.service;
  *  By Milind Khandagale
  */
 
-public interface EmployeeDeleteService {
+public interface OrderDetailsDeleteService {
 
-	public void deleteById(Integer id);
+	public void deleteById(Integer Id);
 
 }

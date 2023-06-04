@@ -8,9 +8,9 @@ package com.ecommerce.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ecommerce.model.Employee;
+import com.ecommerce.model.OrderDetails;
 
 @Repository
-public interface EmployeeInsertRepository extends JpaRepository<Employee, Integer> {
+public interface OrderDetailsInsertRepository extends JpaRepository<OrderDetails, Integer> {
 
 }
